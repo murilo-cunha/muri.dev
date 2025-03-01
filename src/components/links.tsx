@@ -1,5 +1,6 @@
 import {
   IconType,
+  SiBluesky,
   SiGithub,
   SiGmail,
   SiLinkedin,
@@ -14,15 +15,15 @@ export default function Links() {
     },
     {
       icon: SiGithub,
-      href: 'https://github.com/johndoe',
+      href: 'https://github.com/murilo-cunha',
     },
     {
       icon: SiLinkedin,
-      href: 'https://www.linkedin.com/in/johndoe/',
+      href: 'https://www.linkedin.com/in/murilo-cunha/',
     },
     {
-      icon: SiMedium,
-      href: 'https://medium.com/@johndoe',
+      icon: SiBluesky,
+      href: 'https://bsky.app/profile/therealmurilo.bsky.social',
     },
   ]
 

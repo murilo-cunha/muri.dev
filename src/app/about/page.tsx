@@ -8,10 +8,8 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-          consequatur, harum pariatur provident rerum placeat magni voluptas
-          consectetur in exercitationem nobis aut, molestiae iure possimus
-          aspernatur nesciunt laudantium ab atque.
+          Hi, my name is Murilo. I'm a machine learning engineer. From Brazil, living in Belgium. Currently working at
+          <a href="https://dataroots.io/" target="_blank" rel="noopener noreferrer">dataroots</a>. When not behind the computer, I enjoy playing soccer, traveling, spending time with friends and family.
         </p>
       </div>
 
