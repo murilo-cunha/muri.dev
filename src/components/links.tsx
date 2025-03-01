@@ -1,11 +1,6 @@
-import {
-  IconType,
-  SiBluesky,
-  SiGithub,
-  SiGmail,
-  SiLinkedin,
-  SiMedium,
-} from '@icons-pack/react-simple-icons'
+import { IconType } from 'react-icons/lib'
+import { FaLinkedin } from 'react-icons/fa'
+import { SiBluesky, SiGithub, SiGmail, SiMedium } from 'react-icons/si'
 
 export default function Links() {
   const links: { icon: IconType; href: string }[] = [
@@ -18,7 +13,7 @@ export default function Links() {
       href: 'https://github.com/murilo-cunha',
     },
     {
-      icon: SiLinkedin,
+      icon: FaLinkedin,
       href: 'https://www.linkedin.com/in/murilo-cunha/',
     },
     {

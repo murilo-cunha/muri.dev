@@ -1,7 +1,6 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@icons-pack/react-simple-icons@^9.4.1": "9.7.0_react@18.3.1",
     "npm:@radix-ui/react-aspect-ratio@^1.0.3": "1.1.2_@types+react@18.3.18_@types+react-dom@18.3.5__@types+react@18.3.18_react@18.3.1_react-dom@18.3.1__react@18.3.1",
     "npm:@radix-ui/react-tooltip@^1.0.7": "1.1.8_@types+react@18.3.18_@types+react-dom@18.3.5__@types+react@18.3.18_react@18.3.1_react-dom@18.3.1__react@18.3.1",
     "npm:@types/node@20": "20.17.19",
@@ -20,6 +19,7 @@
     "npm:prettier-plugin-tailwindcss@~0.5.14": "0.5.14_prettier@3.5.2",
     "npm:prettier@^3.2.5": "3.5.2",
     "npm:react-dom@18": "18.3.1_react@18.3.1",
+    "npm:react-icons@^5.5.0": "5.5.0_react@18.3.1",
     "npm:react@18": "18.3.1",
     "npm:tailwind-merge@^2.3.0": "2.6.0",
     "npm:tailwindcss-animate@^1.0.7": "1.0.7_tailwindcss@3.4.17__postcss@8.5.3",
@@ -94,12 +94,6 @@
     },
     "@humanwhocodes/object-schema@2.0.3": {
       "integrity": "sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA=="
-    },
-    "@icons-pack/react-simple-icons@9.7.0_react@18.3.1": {
-      "integrity": "sha512-KvMwsHUD3mZSu5fCS7Jw3xH4mDqK94PcT39MoyBwtdbpyl5JEsB8kMZOInKsuzpIEb4XqSfsJ49K30j8s0uHpg==",
-      "dependencies": [
-        "react"
-      ]
     },
     "@isaacs/cliui@8.0.2": {
       "integrity": "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==",
@@ -2047,6 +2041,12 @@
         "scheduler"
       ]
     },
+    "react-icons@5.5.0_react@18.3.1": {
+      "integrity": "sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==",
+      "dependencies": [
+        "react"
+      ]
+    },
     "react-is@16.13.1": {
       "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
     },
@@ -2626,7 +2626,6 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@icons-pack/react-simple-icons@^9.4.1",
         "npm:@radix-ui/react-aspect-ratio@^1.0.3",
         "npm:@radix-ui/react-tooltip@^1.0.7",
         "npm:@types/node@20",
@@ -2645,6 +2644,7 @@
         "npm:prettier-plugin-tailwindcss@~0.5.14",
         "npm:prettier@^3.2.5",
         "npm:react-dom@18",
+        "npm:react-icons@^5.5.0",
         "npm:react@18",
         "npm:tailwind-merge@^2.3.0",
         "npm:tailwindcss-animate@^1.0.7",

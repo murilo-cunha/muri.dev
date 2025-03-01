@@ -31,7 +31,9 @@ import {
   SiGnubash,
   SiSqlite,
   SiIcloud,
-} from '@icons-pack/react-simple-icons'
+  SiFlydotio,
+} from 'react-icons/si'
+import { VscAzure } from 'react-icons/vsc';
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
   [
@@ -65,11 +67,15 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         },
         {
           skill: 'azure',
-          icon: SiIcloud,
+          icon: VscAzure,
         },
         {
           skill: 'google cloud',
           icon: SiGooglecloud,
+        },
+        {
+          skill: 'fly.io',
+          icon: SiFlydotio,
         },
       ],
     },
