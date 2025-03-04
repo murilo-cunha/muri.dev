@@ -8,7 +8,16 @@ import { ThemeProvider } from '@/components/theme-provider'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Murilo Cunha'
+  title: 'Murilo Cunha',
+  icons: {
+    icon: '/favicon.webp',
+    // You can also specify different sizes/formats if needed
+    // apple: '/apple-icon.png',
+    // other: {
+    //   rel: 'apple-touch-icon',
+    //   url: '/apple-touch-icon.png',
+    // },
+  },
 }
 
 export default function RootLayout({
