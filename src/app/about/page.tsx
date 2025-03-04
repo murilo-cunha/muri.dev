@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Hi, my name is Murilo. I'm a machine learning engineer. From Brazil, living in Belgium. Currently working at
+          Hi, my name is Murilo. I&apos;m a machine learning engineer. From Brazil, living in Belgium. Currently working at
           <a href="https://dataroots.io/" target="_blank" rel="noopener noreferrer">dataroots</a>. When not behind the computer, I enjoy playing soccer, traveling, spending time with friends and family.
         </p>
       </div>
