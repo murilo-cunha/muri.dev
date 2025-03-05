@@ -1,4 +1,4 @@
-import Links from '@/components/links'
+import Links from "@/components/links";
 
 export default function Home() {
   return (
@@ -6,7 +6,10 @@ export default function Home() {
       <h1 className="text-2xl font-heading sm:text-4xl">Murilo Cunha</h1>
       <p className="mt-2 text-lg sm:text-xl">Machine Learning Engineer</p>
       <div className="mt-8 text-base sm:text-lg">
-        <p>Hi, my name is Murilo Cunha, machine learning engineer based in Belgium.</p>
+        <p>
+          Hi, my name is Murilo Cunha, machine learning engineer based in
+          Belgium.
+        </p>
 
         <br />
 
@@ -23,5 +26,5 @@ export default function Home() {
 
       <Links />
     </div>
-  )
+  );
 }

@@ -1,11 +1,11 @@
-import SKILLS from '@/data/skills'
+import SKILLS from "@/data/skills";
 
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@/components/ui/tooltip'
+} from "@/components/ui/tooltip";
 
 export default function Skills() {
   return (
@@ -30,12 +30,12 @@ export default function Skills() {
                       <TooltipContent>{skill.skill}</TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                )
+                );
               })}
             </div>
           </div>
-        )
+        );
       })}
     </div>
-  )
+  );
 }

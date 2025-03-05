@@ -1,5 +1,5 @@
-import Experience from '@/components/sections/experience'
-import Skills from '@/components/sections/skills'
+import Experience from "@/components/sections/experience";
+import Skills from "@/components/sections/skills";
 
 export default function About() {
   return (
@@ -8,8 +8,16 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Hi, my name is Murilo. I&apos;m a machine learning engineer. From Brazil, living in Belgium. Currently working at
-          <a href="https://dataroots.io/" target="_blank" rel="noopener noreferrer">dataroots</a>. When not behind the computer, I enjoy playing soccer, traveling, spending time with friends and family.
+          Hi, my name is Murilo. I&apos;m a machine learning engineer. From
+          Brazil, living in Belgium. Currently working at
+          <a
+            href="https://dataroots.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dataroots
+          </a>. When not behind the computer, I enjoy playing soccer, traveling,
+          spending time with friends and family.
         </p>
       </div>
 
@@ -17,5 +25,5 @@ export default function About() {
 
       <Experience />
     </div>
-  )
+  );
 }

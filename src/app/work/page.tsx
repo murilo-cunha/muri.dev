@@ -1,5 +1,5 @@
-import PROJECTS from '@/data/projects'
-import { AspectRatio } from '@/components/ui/aspect-ratio'
+import PROJECTS from "@/data/projects";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export default function Work() {
   return (
@@ -49,9 +49,9 @@ export default function Work() {
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
+  );
 }

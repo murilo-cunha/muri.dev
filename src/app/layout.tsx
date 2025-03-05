@@ -1,16 +1,16 @@
-import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
-import './globals.css'
-import Nav from '@/components/nav'
-import { ViewTransitions } from 'next-view-transitions'
-import { ThemeProvider } from '@/components/theme-provider'
+import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
+import "./globals.css";
+import Nav from "@/components/nav";
+import { ViewTransitions } from "next-view-transitions";
+import { ThemeProvider } from "@/components/theme-provider";
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Murilo Cunha',
+  title: "Murilo Cunha",
   icons: {
-    icon: '/favicon.webp',
+    icon: "/favicon.webp",
     // You can also specify different sizes/formats if needed
     // apple: '/apple-icon.png',
     // other: {
@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     //   url: '/apple-touch-icon.png',
     // },
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <ViewTransitions>
@@ -38,5 +38,5 @@ export default function RootLayout({
         </body>
       </html>
     </ViewTransitions>
-  )
+  );
 }
